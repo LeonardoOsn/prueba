@@ -41,18 +41,18 @@ public class VacantesServceImp implements IntVacantes {
 			
 			Vacante v1 = new Vacante();
 			v1.setId(2);
-			v1.setNombre(" Web Desarrollador");
-			v1.setDescripcion("Desarrollo de apps mediante lenguajes de programacion");
+			v1.setNombre(" Administrador");
+			v1.setDescripcion("Administrador de apps mediante aplicaciones de excel,word,ect");
 			v1.setFecha(LocalDate.of(1998, 02, 05));
-			v1.setSalario(5000.00);
+			v1.setSalario(500.00);
 			v1.setDestacado(0);
 			v1.setImagen("logo8.png");
 			v1.setDetalles("<h2>Ofrecemos</h2>"+"<ul><li>Salario Atractvo</li>"+"<li>Oportunidad de desarrollo</li></ul>");
 			
 			Categoria cate1 = new Categoria();
 			cate1.setId(2);
-			cate1.setNombre("TICS");
-			cate1.setDescripcion("Relaionado con Infomratica,telecomunicacion,iot");
+			cate1.setNombre("Automotriz");
+			cate1.setDescripcion("Relaionado con diseño de autos,mecanica,etc");
 			
 			v1.setCategoria(cate1);
 			Vacante v2 = new Vacante();
@@ -60,7 +60,7 @@ public class VacantesServceImp implements IntVacantes {
 			v2.setNombre(" Seguridad");
 			v2.setDescripcion(" Relaionado con la proteccion");
 			v2.setFecha(LocalDate.of(1998, 02, 05));
-			v2.setSalario(5000.00);
+			v2.setSalario(2600.00);
 			v2.setDestacado(1);
 			v2.setImagen("logo7.png");
 			v2.setDetalles("<h2>Ofrecemos</h2>"+"<ul><li>Salario Atractvo</li>"+"<li>Oportunidad de desarrollo</li></ul>");
